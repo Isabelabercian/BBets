@@ -87,14 +87,14 @@ average=mean(sMyData2)
 
 
 ```{r}
-MyData2 = numeric(1000)
+MyData3 = numeric(1000)
 for (i in 1:1000) {
-  MyData2[i] = BrLw(numClass = 30)
+  MyData3[i]= BrLw(numClass = 29)
 }
-sMyData2=sort(MyData2)
-low=sMyData2[25]
-high=sMyData2[975]
-average=mean(sMyData2)
+sMyData3 = sort(MyData3) 
+low=sMyData3[25]
+high=sMyData3[975]
+middle=sMyData3[500]
 ```
 
 
@@ -104,4 +104,6 @@ average=mean(sMyData2)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
+
+
 
